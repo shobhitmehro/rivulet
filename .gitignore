@@ -1,0 +1,18 @@
+# Build artifacts
+bin/
+*.o
+*.out
+
+# OS files
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+*.pid
