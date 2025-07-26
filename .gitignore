@@ -1,18 +1,33 @@
-# Build artifacts
-bin/
-*.o
-*.out
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# OS files
-.DS_Store
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
 
-# Editor files
-*.swp
-*.swo
+# VS Code
 .vscode/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
 # Docker
-*.pid
+**/data/
+**/broker-data/
+
+# Environment
+.env
+
+# H2 database
+*.mv.db
+*.h2.db
+
+# Misc
+*.class

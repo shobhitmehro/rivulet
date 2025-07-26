@@ -1,0 +1,6 @@
+io/rivulet/broker/model/Event.class
+io/rivulet/broker/service/EventService.class
+io/rivulet/broker/BrokerApplication.class
+io/rivulet/broker/controller/TopicController.class
+io/rivulet/broker/repository/EventRepository.class
+io/rivulet/broker/controller/EventController.class
